@@ -1,0 +1,73 @@
+
+/* font-family: 'Open Sans', sans-serif; */
+/*importo fuente en html y la dejo lista para usar*/
+
+body{  /*le doy un tono de fondo a la pagina*/
+    background-color: rgb(230, 216, 193);
+}
+
+/* defino la tipògrafia */
+h1{
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgb(107, 106, 106);
+    font-size: 30px;
+    }
+h3{
+    color: rgb(70, 93, 116);
+    }
+.texto p{
+    color: navy;
+    font-style: italic;
+}
+.listas p{          /*tamaño y tipo de fuente del titulo de las listas*/
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+}
+
+.listas ul,ol{      /*Aplico fuente importada a las listas*/
+    font-family: 'Open Sans', sans-serif;  
+}
+
+
+.titulo {   /*acomodo el titulo con la imagen*/
+    width: 550px;
+    height: 200px;
+    float: left;
+    margin: 0px;
+    margin-left: 10px;
+    
+}
+.titulo img{      /* tranformo la imagen en circulo y le doy sombras*/
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px cadetblue;
+    border-radius: 50%;
+}
+
+.detalle {     /*acomodo las listas*/
+    float: left;
+ }
+ .detalle h3{font-size: 25px;}
+
+.listas{      /*le aplico un borde a las listas*/
+    border: black 2px solid;
+    border-radius: 10px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);  /* aplico sombras a la caja listas*/
+}
+
+
+.clearfix{     /*limpio el flotado para que no se superponga con las listas*/
+    float: none;
+    clear: both;
+}
+
+.envio{
+    border-radius: 5px;   /*doy estilo a la cajita de envio*/
+}
