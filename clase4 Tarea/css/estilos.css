@@ -1,0 +1,57 @@
+body{  /*le doy un tono de fondo a la pagina*/
+    background-color: rgb(230, 216, 193);
+}
+
+/* defino la tipògrafia */
+h1{
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgb(107, 106, 106);
+    font-size: 30px;
+    }
+h3{
+    color: rgb(70, 93, 116);
+    }
+.texto p{
+    color: navy;
+    font-style: italic;
+}
+.listas p{font-size: 20px;} /*tamaño de fuente del titulo de las listas*/
+
+
+
+.titulo {   /*acomodo el titulo con la imagen*/
+    /* width: 600px; */
+    float: left;
+    
+}
+.imagen {  /*posiciono la imagen*/
+    width: 720px;
+    height: 0px;
+    float: right;
+
+}
+.imagen img{   /* le asigno tamaño a la imagen y la floto a la derecha*/
+    
+    width: 200px;
+    height: 200px;
+   
+}
+.detalle {     /*acomodo las listas*/
+    float: left;
+ }
+ .detalle h3{font-size: 25px;}
+
+.listas{      /*le aplico un borde a las listas*/
+    border: black 2px solid;
+}
+
+
+.clearfix{     /*limpio el flotado para que no se superponga con las listas*/
+    float: none;
+    clear: both;
+}
+
