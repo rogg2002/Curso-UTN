@@ -1,0 +1,45 @@
+body{
+    background-color: burlywood;
+}
+
+#contenedor{         /*doy estilo al contenedor*/
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;          /* aplico flexbox*/
+    flex-direction: row-reverse;  /*cambio el sentido de las cajas*/
+    align-items: center;          /*alineo las cajas al centro del contenedor*/
+    border: 2px solid black;
+}
+ 
+.caja1 {               /*estilo caja 1*/
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px; 
+}
+
+.caja2 {               /*estilo caja 2*/
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.caja3 {                /*estilo caja 3*/
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+

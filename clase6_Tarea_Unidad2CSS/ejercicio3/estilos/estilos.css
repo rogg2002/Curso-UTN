@@ -1,0 +1,44 @@
+body{
+    background-color: burlywood;
+}
+
+#contenedor{                 /* doy estilo a contenedor de las cajas*/
+    background-color: white;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;           /* aplico la propiedad para flexbox*/
+    flex-direction: row;  /*acomodo las cajas dentro del contenedor en filas*/
+    border: 2px solid black;
+    justify-content: space-between; /* acomodo las cajas a lo largo del contenedor dejando mismo espacio entre ellas*/
+}
+
+.caja1 {   /*estilo caja 1*/
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px; 
+}
+
+.caja2 {   /*estilo caja2*/
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.caja3 {     /*estilo caja3*/
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
