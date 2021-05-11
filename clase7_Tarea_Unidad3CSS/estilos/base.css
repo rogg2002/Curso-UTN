@@ -1,0 +1,148 @@
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+.contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+.barra {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+.barra ul {
+	list-style-type:none;
+}
+.barra a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+.contenido {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+.lateral {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 800px){
+	body{
+		background-color: black;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.contenedor {
+		background: #8FA68E;
+		width:100%;
+
+
+	}
+	.barra {
+		background: #FC6;
+		float:none;
+		width:100%;
+	}
+	.barra ul {
+		margin:0;
+	}
+	.barra a {
+		padding: 0.5em;
+		display: block;
+		color:#000;
+	}
+	.contenido {
+		border-top: solid black 0.1em;
+		float:none;
+		padding: 0.9em;
+		width:100%;
+		margin-left:0;
+	}
+	.lateral {
+		border-top: solid black 0.1em;
+		float:none;
+		padding: 0.8em;
+		width:100%;
+		margin-left:0;
+	}
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px){
+	body{
+		background-color: grey;
+		padding: 0px;
+		margin: 0px;
+		
+	}
+
+	.contenedor {
+		background: #8FA68E;
+		width:100%;
+		
+	}
+
+	.contenedor h1,h2{
+		font-size: 120%;
+	}
+	.barra {
+		background: #FC6;
+		width:100%;
+	}
+	.barra ul {
+		margin:0;
+		padding: 0.5em;
+		display: flex;
+		
+		
+	}
+			  
+	.barra li {
+		float: left;
+		
+		
+				
+	  }
+
+	.barra a {
+		padding: 0.3em;
+		color:#000;
+		    
+	}
+	.limpiar{     
+		float: none;
+		clear: both;
+	}
+	
+	.contenido {
+		border-top: solid black 0.1em;
+		float:none;
+		padding: 0.3em;
+		width:100%;
+		margin-left:0;
+	}
+	.lateral {
+		border-top: solid black 0.1em;
+		float:none;
+		padding: 0.3em;
+		width:100%;
+		margin-left:0;
+	}
+
+
+}
+
+
+
