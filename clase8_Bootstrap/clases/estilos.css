@@ -1,0 +1,45 @@
+body{background-color: aquamarine;
+    
+}
+
+h1{
+    background-color: lightcyan;
+    text-align: center;
+    text-shadow: grey;
+    font-size: 40px;
+
+}
+
+.foto {
+    width: 100%;
+    height: 300px;
+}
+.card-group{
+    padding-bottom: 20px;
+}
+.fotocara{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.boton {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(187, 171, 171);
+}
+
+.nav-link{
+    font-size: 20px;
+}
+li{
+    
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+}

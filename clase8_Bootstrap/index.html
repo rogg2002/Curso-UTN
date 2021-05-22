@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="clases/estilos.css">
+</head>
+
+<body class="container">
+  <h1>Tu viaje .com</h1>
+
+  <header>
+
+    <!--carrosusel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/bariloche.jpg" class="foto" alt="paisaje1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/puertomadryn.jpg" class="foto" alt="paisaje2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/elcalafate.jpg" class="foto" alt="paisaje3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--fin carrousel-->
+
+
+
+  </header>
+  <!--<barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> -->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--fin de barra navegacion-->
+
+  <article>
+  <!--inicio de tarjetas-->  
+    <div>
+      <h2>Staff</h2>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="img/fotopersona1.jpg" class="fotocara" alt="persona1">
+        <div class="card-body">
+          <h5 class="card-title">Emilia Gomez</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit rerum error illo a cumque, ipsam quisquam, laboriosam quasi alias eveniet laudantium sint maxime aspernatur corrupti ad eos, exercitationem fuga?</p>
+        </div>
+        <div class="card-footer">
+          <button class="boton">Mas info...</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/fotopersona2.jpg" class="fotocara" alt="persona2">
+        <div class="card-body">
+          <h5 class="card-title">Juan Perez</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui totam tempora quam ea praesentium aspernatur ducimus iusto deserunt architecto, inventore minima vero. Numquam earum inventore ex, laboriosam in pariatur expedita!/p>
+        </div>
+        <div class="card-footer">
+          <button class="boton">Mas info...</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/fotopersona3.jpg" class="fotocara" alt="persona3">
+        <div class="card-body">
+          <h5 class="card-title">Martin Gonzalez</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum incidunt dolorum velit ad eveniet minus, maiores ratione nihil? Ut voluptas assumenda enim vel quis suscipit libero rem similique. Officia.</p>
+        </div>
+        <div class="card-footer">
+          <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+          <button class="boton">Mas info...</button>
+        </div>
+      </div>
+    </div>
+  <!--fin de tarjetas-->  
+
+  <!--inicio de tabla-->
+    <table class="table table-dark table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Destino</th>
+          <th scope="col">Medio</th>
+          <th scope="col">distancia desde Bs. As.</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Bariloche</td>
+          <td>aéreo</td>
+          <td>1576 km</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Puerto Madryn</td>
+          <td>aéreo</td>
+          <td>1298 km</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>El Calafate</td>
+          <td>aéreo</td>
+          <td>2750 km</td>
+        </tr>
+      </tbody>
+    </table>
+  <!--fin de tabla-->
+  </article>
+  <footer class="footer">
+    Diseñado por &#169 Adrian Roggiero
+
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
